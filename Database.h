@@ -72,5 +72,4 @@ public:
 	friend ostream& operator <<(ostream& out, const Database& d);
 
 };
-#include "Database.cpp"
-#include "Book.cpp"
+
