@@ -15,6 +15,7 @@
 #include <locale>         // std::locale, std::isalpha
 #include<vector>
 #include<fstream>
+#include "Book.h"
 
 using namespace std;
 
