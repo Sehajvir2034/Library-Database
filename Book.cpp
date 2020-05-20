@@ -91,7 +91,8 @@ bool Book::operator==(const Book& b) const{
 }
 
 //Description:Input the contents of"this"
-istream& operator>>(istream& in , Book& b){
+istream& operator>>(istream& in , Book& b)
+{
 	cout << endl;
 	cout << "Enter title of Book: ";
 	in >> b.title;
